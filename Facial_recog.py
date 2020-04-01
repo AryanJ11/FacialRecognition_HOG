@@ -28,63 +28,63 @@ face_cas=cv2.CascadeClassifier(r'C:\Users\ARYAN JAIN\Desktop\haarcascade_frontal
 
 #This is a binary classification. However more relevant changes can be made for multi=classififcation
 #image:1-9 are of the faces to be recognized
-imgg1=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0018.jpg')
+imgg1=cv2.imread('/.../..')
 gray1=cv2.cvtColor(imgg1, cv2.COLOR_BGR2GRAY)
 face1=face_cas.detectMultiScale(gray1, 1.3, 5)
 for (x,y,w,h) in face1:
    roi_color1 = imgg1[y:y+h, x:x+w]
 img1=cv2.resize(roi_color1, dim)
 
-imgg2=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0019.jpg')
+imgg2=cv2.imread('/.../..')
 gray=cv2.cvtColor(imgg2, cv2.COLOR_BGR2GRAY)
 face=face_cas.detectMultiScale(gray, 1.3, 5)
 for (x,y,w,h) in face:
    roi_color = imgg2[y:y+h, x:x+w]
 img2=cv2.resize(roi_color, dim)
 
-imgg3=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0020.jpg')
+imgg3=cv2.imread('/.../..')
 gray3=cv2.cvtColor(imgg3, cv2.COLOR_BGR2GRAY)
 face3=face_cas.detectMultiScale(gray3, 1.3, 5)
 for (x,y,w,h) in face3:
    roi_color3 = imgg3[y:y+h, x:x+w]
 img3=cv2.resize(roi_color3, dim)
 
-imgg4=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0021.jpg')
+imgg4=cv2.imread('/.../..')
 gray4=cv2.cvtColor(imgg4, cv2.COLOR_BGR2GRAY)
 face4=face_cas.detectMultiScale(gray4, 1.3, 5)
 for (x,y,w,h) in face4:
    roi_color4 = imgg4[y:y+h, x:x+w]   
 img4=cv2.resize(roi_color4, dim)
   
-imgg5=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0027.jpg')
+imgg5=cv2.imread('/.../..')
 gray5=cv2.cvtColor(imgg5, cv2.COLOR_BGR2GRAY)
 face5=face_cas.detectMultiScale(gray5, 1.3, 5)
 for (x,y,w,h) in face5:
    roi_color5 = imgg5[y:y+h, x:x+w]
 img5=cv2.resize(roi_color5, dim)
 
-imgg6=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0023.jpg')
+imgg6=cv2.imread('/.../..')
 gray6=cv2.cvtColor(imgg6, cv2.COLOR_BGR2GRAY)
 face6=face_cas.detectMultiScale(gray5, 1.3, 5)
 for (x,y,w,h) in face6:
    roi_color6 = imgg6[y:y+h, x:x+w]
 img6=cv2.resize(roi_color6, dim)
 
-imgg7=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0024.jpg')
+imgg7=cv2.imread('/.../..')
 gray7=cv2.cvtColor(imgg7, cv2.COLOR_BGR2GRAY)
 face7=face_cas.detectMultiScale(gray7, 1.3, 5)
 for (x,y,w,h) in face7:
    roi_color7 = imgg7[y:y+h, x:x+w]
 img7=cv2.resize(roi_color7, dim)
 
-imgg8=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0025.jpg')
+imgg8=cv2.imread('/.../..')
 gray8=cv2.cvtColor(imgg8, cv2.COLOR_BGR2GRAY)
 face8=face_cas.detectMultiScale(gray5, 1.3, 5)
 for (x,y,w,h) in face8:
    roi_color8 = imgg8[y:y+h, x:x+w]
 img8=cv2.resize(roi_color8, dim)
 
-imgg9=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\IMG-20200327-WA0026.jpg')
+imgg9=cv2.imread('/.../..')
 gray9=cv2.cvtColor(imgg9, cv2.COLOR_BGR2GRAY)
 face9=face_cas.detectMultiScale(gray9, 1.3, 5)
 for (x,y,w,h) in face9:
@@ -93,50 +93,50 @@ img9=cv2.resize(roi_color9, dim)
 
 #image:10-17 are of arbitary faces.
 
-imgg10=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk1.jpg')
+imgg10=cv2.imread('/.../..')
 gray10=cv2.cvtColor(imgg10, cv2.COLOR_BGR2GRAY)
 face10=face_cas.detectMultiScale(gray9, 1.3, 5)
 for (x,y,w,h) in face10:
    roi_color10 = imgg10[y:y+h, x:x+w]
 img10=cv2.resize(roi_color10, dim)
-imgg11=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk2.jpg')
+imgg11=cv2.imread('/.../..')
 gray11=cv2.cvtColor(imgg11, cv2.COLOR_BGR2GRAY)
 face11=face_cas.detectMultiScale(gray11, 1.3, 5)
 for (x,y,w,h) in face11:
    roi_color11 = imgg11[y:y+h, x:x+w]
 img11=cv2.resize(roi_color11, dim)
-imgg12=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk3.jpg')
+imgg12=cv2.imread('/.../..')
 gray12=cv2.cvtColor(imgg12, cv2.COLOR_BGR2GRAY)
 face12=face_cas.detectMultiScale(gray12, 1.3, 5)
 for (x,y,w,h) in face12:
    roi_color12 = imgg12[y:y+h, x:x+w]
 img12=cv2.resize(roi_color12, dim)
-imgg13=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk4.jpg')   
+imgg13=cv2.imread('/.../..')   
 gray13=cv2.cvtColor(imgg13, cv2.COLOR_BGR2GRAY)
 face13=face_cas.detectMultiScale(gray13, 1.3, 5)
 for (x,y,w,h) in face13:
    roi_color13 = imgg13[y:y+h, x:x+w]
 img13=cv2.resize(roi_color13, dim)
-imgg14=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk5.jpg')
+imgg14=cv2.imread('/.../..')
 gray14=cv2.cvtColor(imgg14, cv2.COLOR_BGR2GRAY)
 face14=face_cas.detectMultiScale(gray14, 1.3, 5)
 for (x,y,w,h) in face14:
    roi_color14 = imgg14[y:y+h, x:x+w]
 img14=cv2.resize(roi_color14, dim)
-imgg15=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk6.jpg')
+imgg15=cv2.imread('/.../..')
 gray15=cv2.cvtColor(imgg15, cv2.COLOR_BGR2GRAY)
 face15=face_cas.detectMultiScale(gray15, 1.3, 5)
 for (x,y,w,h) in face15:
    #cv2.rectangle(test,(x,y),(x+w,y+h),(255,255,0),5)
    roi_color15 = imgg15[y:y+h, x:x+w]
 img15=cv2.resize(roi_color15, dim)
-imgg16=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk7.jpg')   
+imgg16=cv2.imread('/.../..')   
 gray16=cv2.cvtColor(imgg16, cv2.COLOR_BGR2GRAY)
 face16=face_cas.detectMultiScale(gray16, 1.3, 5)
 for (x,y,w,h) in face16:
    roi_color16 = imgg16[y:y+h, x:x+w]
 img16=cv2.resize(roi_color16, dim)
-imgg17=cv2.imread(r'C:\Users\ARYAN JAIN\Desktop\web-d\uk8.jpg')
+imgg17=cv2.imread('/.../..')
 gray17=cv2.cvtColor(imgg17, cv2.COLOR_BGR2GRAY)
 face17=face_cas.detectMultiScale(gray17, 1.3, 5)
 for (x,y,w,h) in face17:
